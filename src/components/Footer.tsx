@@ -2,7 +2,7 @@ function Footer() {
 	return (
 		<>
 			<footer>
-				<h2>fdsdfsds</h2>
+				<h2>Microsites</h2>
 				<p>
 					FDND maakt gebruik van een heleboel 
 					microsites in plaats van één grote website 
@@ -11,14 +11,30 @@ function Footer() {
 					over een product of dienst.
 				</p>
 				<ul>
-					<li>FDND.nl</li>
-					<li>Contact en routebeschrijving</li>
-					<li>Programma</li>
-					<li>Studie Keuze Check</li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li>
+						<a href="">FDND.nl</a>
+					</li>
+					<li>
+						<a href="">Contact en routebeschrijving</a>
+					</li>
+					<li>
+						<a href="">Programma</a>
+					</li>
+					<li>
+						<a href="">Studie Keuze Check</a>
+					</li>
+					<li>
+						<a href="">Partners</a>
+					</li>
+					<li>
+						<a href="">Leertaken</a>
+					</li>
+					<li>
+						<a href="">Styleguide</a>
+					</li>
+					<li>
+						<a href="">Quiz</a>
+					</li>
 				</ul>
 			</footer>
 		</>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 interface QuizCardProps {
   name: string;
 	description: string;
@@ -18,7 +20,7 @@ function QuizCard({name, description, category, difficulty, answertype, link, im
 				<p><strong>Categorie:</strong> {category}</p>
 				<p><strong>Difficulty:</strong> {difficulty}</p>
 				<p><strong>Antwoordtype:</strong> {answertype}</p>
-				<a href={link} >Speel de quiz</a>
+				<Link to={link} >Speel de quiz</Link>
 			</article>
 			<img src={image} alt={alt} />
 		</>

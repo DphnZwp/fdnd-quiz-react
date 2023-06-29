@@ -1,7 +1,7 @@
 import QuizCard from "./components/QuizCard";
 
 function Quizzes() {
-  document.title = 'FDND quizzen';
+  document.title = 'FDND Quizzen';
   return (
     <>
 			<h1>FDND Quizzen</h1>
