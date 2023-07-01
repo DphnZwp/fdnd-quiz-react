@@ -16,11 +16,13 @@ function QuizCard({name, description, category, difficulty, answertype, link, im
 		<>
 			<article>
 				<h2>{name}</h2>
-				<p>{description}</p>
+				<p className="description">{description}</p>
 				<p><strong>Categorie:</strong> {category}</p>
-				<p><strong>Difficulty:</strong> {difficulty}</p>
+				<p><strong>Moeilijkheidsgraad:</strong> {difficulty}</p>
 				<p><strong>Antwoordtype:</strong> {answertype}</p>
-				<Link to={link} >Speel de quiz</Link>
+				<div className="background-link">
+					<Link to={link} >Speel de quiz</Link>
+				</div>
 			</article>
 			<img src={image} alt={alt} />
 		</>
