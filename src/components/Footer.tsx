@@ -12,28 +12,25 @@ function Footer() {
 				</p>
 				<ul>
 					<li>
-						<a href="">FDND.nl</a>
+						<a href="https://fdnd.nl/">FDND.nl</a>
 					</li>
 					<li>
-						<a href="">Contact en routebeschrijving</a>
+						<a href="https://contact.fdnd.nl/">Contact en routebeschrijving</a>
 					</li>
 					<li>
-						<a href="">Programma</a>
+						<a href="https://programma.fdnd.nl/">Programma</a>
 					</li>
 					<li>
-						<a href="">Studie Keuze Check</a>
+						<a href="https://skc.fdnd.nl/">Studie Keuze Check</a>
 					</li>
 					<li>
-						<a href="">Partners</a>
+						<a href="https://partners.fdnd.nl/">Partners</a>
 					</li>
 					<li>
-						<a href="">Leertaken</a>
+						<a href="https://tasks.fdnd.nl/">Leertaken</a>
 					</li>
 					<li>
-						<a href="">Styleguide</a>
-					</li>
-					<li>
-						<a href="">Quiz</a>
+						<a href="https://styleguide.fdnd.nl/">Styleguide</a>
 					</li>
 				</ul>
 			</footer>

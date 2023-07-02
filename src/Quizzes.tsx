@@ -11,22 +11,22 @@ function Quizzes() {
 			</div>
 			<QuizCard
 				name="HTML quiz"
-				description="Deze quiz gaat over verschillende termen die te maken hebben met CSS. De quiz duurt ongeveer 5 minuten."
+				description="Deze quiz gaat over verschillende termen die te maken hebben met CSS. De quiz duurt ongeveer 2 minuten."
 				category="CSS"
 				difficulty="Makkelijk"
 				answertype="Meerkeuze"
-				link="/css-quiz"
-				image="/css-quiz.png"
+				link="/html-quiz"
+				image="/html-quiz.png"
 				alt="ddfdf"
 			/>
 			<QuizCard
 				name="CSS quiz"
-				description="Deze quiz gaat over verschillende termen die te maken hebben met HTML. De quiz duurt ongeveer 5 minuten."
+				description="Deze quiz gaat over verschillende termen die te maken hebben met HTML. De quiz duurt ongeveer 2 minuten."
 				category="HTML"
 				difficulty="Makkelijk"
 				answertype="Meerkeuze"
-				link="/"
-				image="/html-quiz.png"
+				link="/css-quiz"
+				image="/css-quiz.png"
 				alt="ddfdf"
 			/>
     </section>

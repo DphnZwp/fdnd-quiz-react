@@ -21,7 +21,7 @@ function QuizCard({name, description, category, difficulty, answertype, link, im
 				<p><strong>Moeilijkheidsgraad:</strong> {difficulty}</p>
 				<p><strong>Antwoordtype:</strong> {answertype}</p>
 				<div className="background-link">
-					<Link to={link} >Speel de quiz</Link>
+					<Link className="button-link" to={link} >Speel de quiz</Link>
 				</div>
 			</article>
 			<img src={image} alt={alt} />
