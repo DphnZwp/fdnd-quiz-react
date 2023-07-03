@@ -1,38 +1,26 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from "react-router-dom"
 import CssData from './CssData.json';
 
 function CssQuiz() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
-  const [quizFinished, setQuizFinished] = useState(false);
-  const [Results, setResults] = useState(false);
 
   const currentQuestion = CssData.questions[currentQuestionIndex];
 
-  useEffect(() => {
-    if (quizFinished) {
-      setResults(true);
-    }
-  }, [quizFinished]);
-
   const handleAnswerClick = (answerIndex: number) => {
     if (answerIndex === currentQuestion.correctAnswer) {
-      setScore(prevScore => prevScore + 1);
+      setScore(score + 1);
     }
 
-    if (currentQuestionIndex < CssData.questions.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-    } else {
-      setQuizFinished(true);
-    }
+    setCurrentQuestionIndex(currentQuestionIndex + 1);
   };
 
   return (
     <>
-      {!Results && (
+      {currentQuestionIndex < CssData.questions.length ? (
         <>
-          <h1>CSS Quiz</h1>
+          <h1>Html Quiz</h1>
           <h2>{currentQuestion.question}</h2>
           <div className='answers'>
             {currentQuestion.answers.map((answer, index) => (
@@ -42,14 +30,13 @@ function CssQuiz() {
             ))}
           </div>
         </>
-      )}
-      {Results && (
+      ) : (
 				<section>
         	<h2 className='results-title'>Je hebt {score} van de {CssData.questions.length} vragen goed!</h2>
           <p>Doe de quiz opnieuw als je de score wilt verbeteren.</p>
           <div className='button-row'>
             <Link className='button-link' to="/">Terug naar quizzen</Link>
-            <a className='button-link-secondary' href="/css-quiz">Quiz opnieuw doen</a>
+            <a className='button-link-secondary' href="/html-quiz">Quiz opnieuw doen</a>
           </div>
 				</section>
       )}

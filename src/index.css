@@ -256,6 +256,35 @@ footer h2 {
   background-color: var(--clr-background);
 }
 
+footer h2::before {
+  content: "";
+  margin-left: -1.5rem;
+  position: absolute;
+  background-color: transparent;
+  width: 0.5rem;
+  height: 1rem;
+  border-width: 1px 1px 0 0;
+  border-style: solid;
+  border-top-right-radius: 0.5rem;
+  border-color: var(--clr-border);
+  box-shadow: var(--clr-background) 0 -0.5rem;
+}
+
+footer h2::after {
+  content: "";
+  margin-top: 3.3rem;
+  margin-left: -0.5rem;
+  position: absolute;
+  background-color: transparent;
+  width: 0.5rem;
+  height: 1rem;
+  border-width: 1px 1px 0 0;
+  border-style: solid;
+  border-top-right-radius: 0.5rem;
+  border-color: var(--clr-border);
+  box-shadow: var(--clr-background) 0 -0.5rem;
+}
+
 footer p {
   margin-bottom: 1.5rem;
 }
