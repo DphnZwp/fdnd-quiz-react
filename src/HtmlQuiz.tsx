@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import HtmlData from './HtmlData.json';
 
 function HtmlQuiz() {
