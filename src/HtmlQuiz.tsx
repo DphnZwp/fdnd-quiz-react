@@ -16,6 +16,10 @@ function HtmlQuiz() {
     setCurrentQuestionIndex(currentQuestionIndex + 1);
   };
 
+  function refreshPage() {
+      window.location.reload();
+  }
+
   return (
     <>
       {currentQuestionIndex < HtmlData.questions.length ? (
@@ -37,7 +41,7 @@ function HtmlQuiz() {
           <p>Doe de quiz opnieuw als je de score wilt verbeteren.</p>
           <div className='button-row'>
             <Link className='button-link' to="/">Terug naar quizzen</Link>
-            <Link className='button-link-secondary' to="/html-quiz">Quiz opnieuw doen</Link>
+            <Link className='button-link-secondary' to="/html-quiz" onClick={refreshPage}>Quiz opnieuw doen</Link>
           </div>
 				</section>
       )}
