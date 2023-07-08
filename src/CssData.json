@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "question": "What does CSS stand for?",
+      "question": "1. What does CSS stand for?",
       "answers": [
         "Cascading Style Sheets",
         "Creative Style Sheets",
@@ -11,7 +11,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Which HTML attribute is used to define inline styles?",
+      "question": "2. Which HTML attribute is used to define inline styles?",
       "answers": [
         "font",
         "class",
@@ -21,7 +21,7 @@
       "correctAnswer": 3
     },
     {
-      "question": "Which property is used to change the font of an element in CSS?",
+      "question": "3. Which property is used to change the font of an element in CSS?",
       "answers": [
         "font",
         "font-style",
@@ -31,7 +31,7 @@
       "correctAnswer": 2
     },
     {
-      "question": "Which CSS property is used to change the background color of an element?",
+      "question": "4. Which CSS property is used to change the background color of an element?",
       "answers": [
         "background-color",
         "color",
@@ -41,7 +41,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Which HTML tag is used to define a client-side script (JavaScript)?",
+      "question": "5. Which HTML tag is used to define a client-side script (JavaScript)?",
       "answers": [
         "<script>",
         "<code>",
@@ -51,7 +51,7 @@
       "correctAnswer": 0
     },
     {
-      "question": "Which CSS property is used to change the text color of an element?",
+      "question": "6. Which CSS property is used to change the text color of an element?",
       "answers": [
         "text-color",
         "font-color",
