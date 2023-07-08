@@ -1,7 +1,7 @@
 {
 	"questions": [
 		{
-			"question": "What does HTML stand for?",
+			"question": "1. What does HTML stand for?",
 			"answers": [
 				"Hyperlink and Text Markup Language",
 				"Home Tool Markup Language",
@@ -11,7 +11,7 @@
 			"correctAnswer": 3
 		},
 		{
-			"question": "Which tag is used to create a hyperlink in HTML?",
+			"question": "2. Which tag is used to create a hyperlink in HTML?",
 			"answers": [
 				"<link>",
 				"<a>",
@@ -21,7 +21,7 @@
 			"correctAnswer": 1
 		},
 		{
-			"question": "Which tag is used to display an image in HTML?",
+			"question": "3. Which tag is used to display an image in HTML?",
 			"answers": [
 				"<src>",
 				"<image>",
@@ -31,7 +31,7 @@
 			"correctAnswer": 2
 		},
 		{
-			"question": "Which tag is used to define a table in HTML?",
+			"question": "4. Which tag is used to define a table in HTML?",
 			"answers": [
 				"<table>",
 				"<tab>",
@@ -41,7 +41,7 @@
 			"correctAnswer": 0
 		},
 		{
-			"question": "Which tag is used to create a numbered list in HTML?",
+			"question": "5. Which tag is used to create a numbered list in HTML?",
 			"answers": [
 				"<ol>",
 				"<ul>",
@@ -51,7 +51,7 @@
 			"correctAnswer": 0
 		},
 		{
-			"question": "Which tag is used to create a line break in HTML?",
+			"question": "6. Which tag is used to create a line break in HTML?",
 			"answers": [
 					"<break>",
 					"<lb>",

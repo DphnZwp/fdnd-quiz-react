@@ -22,6 +22,7 @@ function HtmlQuiz() {
         <>
           <h1>Html Quiz</h1>
           <h2>{currentQuestion.question}</h2>
+          <p>Je hebt { score } goed</p>
           <div className='answers'>
             {currentQuestion.answers.map((answer, index) => (
               <button className='answer' key={index} onClick={() => handleAnswerClick(index)}>
@@ -36,7 +37,7 @@ function HtmlQuiz() {
           <p>Doe de quiz opnieuw als je de score wilt verbeteren.</p>
           <div className='button-row'>
             <Link className='button-link' to="/">Terug naar quizzen</Link>
-            <a className='button-link-secondary' href="/html-quiz">Quiz opnieuw doen</a>
+            <Link className='button-link-secondary' to="/html-quiz">Quiz opnieuw doen</Link>
           </div>
 				</section>
       )}
